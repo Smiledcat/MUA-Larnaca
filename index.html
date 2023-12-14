@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MUA Larnaca</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,900;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__container">
+          <nav class="header__nav">
+            <a href="/">
+              <img src="./images/logo.png" alt="MUA Larnaca logo" />
+            </a>
+            <ul class="header__menu">
+              <li>
+              <a class="link" href="#intro-section">About me</a>
+            </li>
+              <li><a class="link" href="#services-section">Services</a></li>
+              <li><a class="link" href="#styles-section">Styles</a></li>
+              <li><a class="link" href="#contact-section">Contact me</a></li>
+            </ul>
+          </nav>    
+          <button class="header__button button modal-btn-open" type="button">
+            Request callback
+          </button>
+        </div>
+    </div>
+    </header>
+    <main>
+      <section class="header-section">
+        <div class="container">
+        <h1 class="header-section__title">
+          <span class="text-brand">MUA</span> Larnaca
+        </h1>
+        <button class="header-section__button button modal-btn-open" type="button">
+          Request callback
+        </button>
+      </div>
+      </section>
+        <section class="advantages-section">
+        <div class="container">
+        <h2 class="visually-hidden">My advantages</h2>
+        <ul class="advantages-section__list">
+          <li class="advantages-section__item">Expertise and Skill</li>
+          <li class="advantages-section__item">Client-Centric Approach</li>
+          <li class="advantages-section__item">Quality Products and Hygiene</li>
+        </ul>
+      </div>
+      </section>
+      <section class="intro-section section" id="intro-section">
+        <div class="container">
+          <div class="intro-section__container">
+            <div class="intro-section__content">
+           <h2 class="intro-section__title section__title">Hello! I'm Kseniia</h2>
+        <p>
+          <span class="text-brand text-bold text-uppercase">mua larnaca</span> - a passionate makeup artist with a flair for enhancing natural beauty.
+        </p>
+        <p class="intro-section__text intro-section__text--limited">
+          With 10 years of experience, I'm dedicated to creating 
+          <span class="text-brand text-bold">
+            personalized, stunning looks
+          </span>
+          that leave my clients feeling confident and radiant.
+        </p>
+      </div>
+        <img
+        class="intro-section__image"
+        src="./images/mua_photo.jpg"
+          alt="MUA Larnaca portrait"
+        />
+      </div>
+      </div>
+      </section>
+      <section class="services-section section" id="services-section">
+        <div class="container">
+        <h2 class="services-section__title section__title section__title--centered">
+          Let me suggest <br />
+          <span class="text-brand-dark">best services</span>
+        </h2>
+        <ul class="services-section__list">
+          <li class="services-section__item">
+            <article class="service-card">
+              <img class="service-card__photo"
+              src="./images/services-makeup.jpg"
+              alt="Services makeup"
+              />
+              <div>
+              <h3 class="service-card__title">Creating your makeup</h3>
+              <p class="service-card__text">Beauty elevated, naturally. </p>
+              <p class="service-card__text">
+                Transforming faces with precision and artistry.
+              </p>
+              <p class="service-card__text">
+                Elevate your beauty with my expert makeup services.
+              </p>
+            </div>
+            </article>
+          </li>
+          <li class="services-section__item"> 
+            <article class="service-card">
+              <img
+              class="service-card__photo"
+              src="./images/services-lessons.jpg"
+              alt="Services lessons"
+              />
+              <div>
+              <h3 class="service-card__title">Makeup Teacher</h3>
+              <p class="service-card__text">for beginners</p>
+              <p class="service-card__text">
+                Elevate your makeup skills.
+              </p>
+              <p class="service-card__text">Learn from an expert makeup artist.</p>
+            </div>
+            </article>
+          </li>
+        </ul>
+      </div>
+      </section>
+      <section class="styles-section section" id="styles-section">
+        <div class="container">
+        <h2 class="styles-section__title section__title section__title--centered">Styles</h2>
+        <div class="styles-section__slider">
+        <button class="styles-section__button carousel-button prev" type="button">
+          <svg width="16" height="16">
+            <use href="./images/icons.svg#icon-backward"></use>
+          </svg>
+        </button>
+        <div class="styles-section__container swiper-container">
+        <ul class="styles-section__list swiper-wrapper">
+          <li class="swiper-slide">
+            <article class="style-card">
+              <img class="style-card__image"
+              src="./images/nude-style.jpg"
+              alt="Nude makeup style"
+              />
+              <h3 class="style-card__title" lang="en">Nude Makeup</h3>
+              <div class="style-card__text">
+                <p>Effortless elegance.</p>
+                <p>Timeless nude beauty.</p>
+                <p>
+                  Enhancing your natural beauty with subtle, nude makeup perfection.
+                </p>
+                <p>A timeless, radiant glow.</p>
+            </div>
+            </article>
+          </li>
+          <li class="swiper-slide">
+            <article class="style-card">
+              <img class="style-card__image"
+              src="./images/hd-style.jpg"
+              alt="HD makeup style"
+              />
+              <h3 class="style-card__title" lang="en">HD Makeup</h3>
+              <div class="style-card__text">
+                <p>"Flawless precision.</p>
+                <p>Camera-ready perfection.</p>
+                <p>
+                  High-definition makeup for a camera-ready, airbrushed finish.
+                </p>
+                <p>Captivate with every pixel.</p>
+              </div>
+            </article class="style-card">
+          </li>
+          <li class="swiper-slide">
+            <article class="style-card">
+              <img class="style-card__image"
+              src="./images/editorial-style.jpg"
+              alt="Editorial makeup style"
+              />
+              <h3 class="style-card__title" lang="en">Editorial Makeup</h3>
+              <div class="style-card__text">
+                <p>Editorial excellence.</p>
+                <p>Captivating couture.</p>
+                <p>
+                  Artistic, avant-garde makeup for fashion-forward statements.
+                </p>
+                <p>Pushing boundaries, igniting creativity. </p>
+            </div>
+            </article>
+          </li>
+          <li class="swiper-slide">
+            <article class="style-card">
+              <img class="style-card__image"
+              src="./images/matte-style.jpg"
+              alt="Matte style makeup"
+              />
+              <h3 class="style-card__title" lang="en">Matte Makeup</h3>
+              <div class="style-card__text">
+                <p>Matte magic!</p>
+                <p>Silky, shine-free perfection. Effortless elegance. </p>
+                <p>
+                  A modern, velvety finish that lasts all day. 
+                </p>
+                <p>Matte beauty revealed.</p>
+              </div>
+            </article>
+          </li>
+          <li class="swiper-slide">
+            <article class="style-card">
+              <img class="style-card__image"
+              src="./images/wedding-style.jpg"
+              alt="Wedding makeup style"
+              />
+              <h3 class="style-card__title" lang="en">Wedding Makeup</h3>
+              <div class="style-card__text">
+                <p>Radiant brides shine!</p>
+                <p>Your wedding day glow. </p>
+                <p>
+                  Enhancing natural beauty for your special day. Timeless, flawless bridal elegance.
+                </p>
+                <p>Unforgettable bridal beauty.</p>
+              </div>
+            </article class="style-card">
+          </li>
+          <li class="swiper-slide">
+            <article class="style-card">
+              <img class="style-card__image"
+              src="./images/evening-style.jpg"
+              alt="Evening style makeup"
+              />
+              <h3 class="style-card__title" lang="en">Evening Makeup</h3>
+              <div class="style-card__text">
+                <p>Dazzle after dark!</p>
+                <p>Elegant allure for evenings.</p>
+                <p>
+                  Evening makeup for sultry sophistication. Glamour that lights up the night.
+                </p>
+                <p>Mesmerize under moonlight. </p>
+              </div>
+            </article>
+          </li>
+        </ul>
+        <div class="pagination">
+          <span class="pagination__button" type="button" aria-label="Go to slide 1"></span>
+          <span class="pagination__button" type="button" aria-label="Go to slide 2"></span>
+          <span class="pagination__button" type="button" aria-label="Go to slide 3"></span>
+          <span class="pagination__button" type="button" aria-label="Go to slide 4"></span>
+        </div>
+      </div>
+        <button class="styles-section__button carousel-button next" type="button">
+          <svg width="16" height="16">
+            <use href="./images/icons.svg#icon-backward"></use>
+          </svg>
+        </button>
+      </div>
+      </div>
+      </section>
+      <section class="contact-section section" id="contact-section">
+        <div class="container">
+          <div class="contact-section__container">
+            <div class="contact-section__form">
+        <h2 class="contact-section__title section__title">
+          Book an appointment</h2>
+        <p>Fill the form so I can contact you!</p>
+        <form name="contact-form" autocomplete="off">
+          <div class="contact-section__form-field input">
+          <label class="input__label visually-hidden" for="user-name">Name</label>
+          <input class="input__control" type="text" name="user-name" id="user-name" placeholder="Name"/>
+        </div>
+    
+          <div class="contact-section__form-field input">
+          <label class="input__label visually-hidden" for="user-tel">Phone number</label>
+          <input class="input__control" type="tel" name="user-tel" id="user-tel" placeholder="Phone"/>
+        </div>
+    
+          <div class="contact-section__form-field input">
+          <label class="input__label visually-hidden" for="user-email">Email</label>
+          <input class="input__control" type="email" name="user-email" id="user-email" placeholder="Email"/>
+        </div>
+    
+            <button class="contact-section__button button" type="submit">Request callback</button>
+            <p class="form-terms">
+              By clicking the button, you agree to
+              <a class="form-terms__link" href="#">
+                the privacy policy
+              </a>
+            </p>
+        </form>    
+      </div>
+        <iframe
+        class="contact-section__map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d794.6045902469075!2d33.637402971405926!3d34.917666289437065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14e09d3c9d2fb08b%3A0xe8f5e4ff6b77cc69!2sPolice%20Headquarters%20Larnaca!5e0!3m2!1sen!2s!4v1702582829394!5m2!1sen!2s"
+          width="603"
+          height="595"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+      </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__container">
+          <nav class="footer__nav">
+            <div class="footer__logo">
+            <a href="#">
+              <img src="/images/logo.png" alt="MUA Larnaca logo" />
+            </a>
+          </div>
+            <ul class="footer__menu">
+              <li><a class="link" href="#">About me</a></li>
+              <li><a class="link" href="#">Services</a></li>
+              <li><a class="link" href="#">Styles</a></li>
+              <li><a class="link" href="#">Contact me</a></li>
+            </ul>
+          </nav>
+          <address class="footer__address">
+            <div class="footer__address-contacts">
+              <ul class="footer__address-list">
+                <li>
+                  <a class="footer__address-link" href="tel:+35797638421">+357 97638421</a>
+                </li>
+                <li>
+                  <a class="footer__address-link" href="mailto:smiledcat@ukr.net">smiledcat@ukr.net</a>
+                </li>
+                <li>
+                  <a class="footer__address-link href="https://maps.app.goo.gl/X5EjASMP1sGnkv866" target="_blank">
+                    Archiepiskopou Makariou III, <br>
+                    Larnaca 6023, Cyprus
+                  </a>
+                </li>
+              </ul>
+              <div>
+                <a href="https://www.facebook.com/anioto">
+                  <svg class="footer__address-icon" width="32" height="32">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+                <a href="https://www.instagram.com/smiledcat/">
+                  <svg class="footer__address-icon" width="32" height="32">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="footer__address-info">
+            <a class="footer__address-link" href="#" target="_blank">
+              Privacy policy
+            </a>
+            <p class="footer__address-copyright">&copy; 2023 All rights reserved</p>
+          </div>
+          </address>
+        </div>
+    </div>
+    </footer>
+
+<div class="backdrop is-hidden">
+  <div class="modal-container"></div>
+    <div class="modal">
+    <button class="modal__btn-close modal-btn-close" type="button">Close</button>
+    <h2>Request callback</h2>
+    <p>Book an appointment</p>
+    <form name="modal-form" autocomplete="off">
+      <div class="modal__form-field input">
+      <label class="input__label visually-hidden" for="user-name">Name</label>
+      <input class="input__control" type="text" name="user-name" id="user-name" placeholder="Name"
+      required
+      />
+    </div>
+
+      <div class="modal__form-field input">
+      <label class="input__label visually-hidden" for="user-tel">Phone number</label>
+      <input class="input__control" type="tel" name="user-tel" id="user-tel" placeholder="Phone"
+      pattern="^\+[0-9]{12}"
+      required
+      />
+    </div>
+
+      <div class="modal__form-field input">
+      <label class="input__label visually-hidden" for="user-email">Email</label>
+      <input class="input__control" type="email" name="user-email" id="user-email" placeholder="Email"
+      required
+      />
+    </div>
+
+        <button class="contact-section__button button" type="submit">Request callback</button>
+        <p class="form-terms">
+          By clicking the button, you agree to
+          <a class="form-terms__link" href="#"> the privacy policy.</a>
+        </p>
+    </form>
+    </div>
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./js/styles-slider.js"></script>
+
+  <script src="./js/modal.js"></script>
+  </body>
+</html>
